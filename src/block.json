@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/contact",
+	"version": "0.1.0",
+	"title": "Jl_Contact",
+	"category": "widgets",
+	"icon": "email",
+	"description": "Block pour récupérer des email.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "contact",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}

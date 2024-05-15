@@ -1,0 +1,21 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-contact {
+	
+		display: flex;
+	
+
+	input {
+		flex: 1 1 auto;
+		padding: 5px 15px;
+		border-radius: 4px;
+		border: solid 1px #444;
+		margin-right: 10px;
+		;
+	}
+}
